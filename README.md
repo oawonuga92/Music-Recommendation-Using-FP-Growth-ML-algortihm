@@ -1,5 +1,5 @@
 # Music-Recommendation-Using-FP-Growth-data-mining-algortihm
-In this Project, the association rule data mining (ARM) technique was employed using the Frequent Pattern Growth mining algorithm (FP-Growth) to learn the music listening behavior of listeners in different communities, identify associations among music artists and recommend new music to users
+In this Project, the association rule data mining (ARM) technique was employed using the Frequent Pattern Growth algorithm (FP-Growth) to learn the music listening behavior of listeners in different communities, identify associations among music artists and recommend new music to users
 
 Dataset Description: 
 ---------------------
