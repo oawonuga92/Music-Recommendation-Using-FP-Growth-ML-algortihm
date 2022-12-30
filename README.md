@@ -13,6 +13,8 @@ The methodology for this project involved application of techniques in big data 
 3. Data visualization
 4. Association rule mining (ARM)
 
+The methodology is implemented programmatically on with pyspark i.e python API for Apache Spark framework. Pyspark is employed for data exploration actions and transformations because it is well suited to handle big data mining tasks due to its flexible, scalable, and fast execution
+
 Data preprocessing
 --------------------
 A) Removal of duplicates: Two duplicate observations are in the dataframe. Initially there are 289955 rows, but after normalization using dropDuplicates ([ ]) function, the number of observation is 289953. The justification for data normalization is to remove duplicates and ensure each observation is a unique row.
