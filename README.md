@@ -16,7 +16,7 @@ The methodology for this project involved application of techniques in big data 
 Data preprocessing
 --------------------
 A) Removal of duplicates: Two duplicate observations are in the dataframe. Initially there are 289955 rows, but after normalization using dropDuplicates ([ ]) function, the number of observation is 289953. The justification for data normalization is to remove duplicates and ensure each observation is a unique row.
-**
+___
 B) Data Validation: The dataframe is validated to confirm if there is missing data, noisy data or errors in the datatype
 
 
