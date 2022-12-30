@@ -11,4 +11,4 @@ The methodology for this project involved application of techniques in big data 
 3. Data visualization
 4. Association rule mining (ARM)
 
-The methodology is implemented programmatically on with pyspark i.e python API for Apache Spark framework. pyspark is employed for data exploration actions and transformations because it is well suited to handle big data mining tasks due to its flexible, scalable, and fast execution
+The methodology is implemented programmatically on with pyspark i.e python API for Apache Spark framework. Pyspark is employed for data exploration actions and transformations because it is well suited to handle big data mining tasks due to its flexible, scalable, and fast execution
