@@ -23,7 +23,7 @@ B) Data Validation: The dataframe is validated to confirm if there is missing da
 
 Data Exploration / Visualization
 --------------------
-Numerical transformation such as country-wise distribution, artist wise distribution is perfromed on the dataframe using the grouping method (groupBy) to visually represent these transformations. The insights are graphically represented in the form of bar charts by employing pandas visualization libraries which are Matplotlib and Seaborn
+Numerical transformation such as country-wise distribution, artist wise distribution is perfromed on the dataframe using the grouping method (groupBy). These transformations are graphically represented in the form of bar charts by employing pandas visualization libraries which are Matplotlib and Seaborn
 
 Association Rule mining 
 --------
