@@ -3,7 +3,7 @@ In this Project, the association rule data mining (ARM) technique was employed u
 
 Dataset Description: 
 ---------------------
-The data set is an open dataset from lastfm. Lastfm is a music listening streaming platform. The data was created and published by the same owners. The domain of the dataset is related to music. The data is available in a comma separated value (CSV) format and it has a shape of 289955 rows and 4 columns.
+The data set is an open dataset from lastfm. Lastfm is a music listening streaming platform. The domain of the dataset is related to music. The data was created and published by the same owners. The data is available in a comma separated value (CSV) format and it has a shape of 289955 rows and 4 columns. The names of the 4 attributes are: user_id, sex, music_artist, country.
 
 Methodology: 
 -------------
@@ -11,9 +11,9 @@ The methodology for this project involved application of techniques in big data 
 1. Data-preprocessing 
 2. Exploratory Data Analysis
 3. Data visualization
-4. Association rule mining (ARM)
+4. Association rule mining (ARM) using FP growth algorithm
 
-The methodology is implemented programmatically on with pyspark i.e python API for Apache Spark framework. Pyspark is employed for data exploration actions and transformations because it is well suited to handle big data mining tasks due to its flexible, scalable, and fast execution
+The methodology is implemented programmatically with pyspark i.e python API for Apache Spark framework. Pyspark is employed for this project is well suited to handle big data mining tasks due to its flexible, scalable, and fast execution
 
 Data preprocessing
 --------------------
@@ -21,5 +21,10 @@ A) Removal of duplicates: Two duplicate observations are in the dataframe. Initi
 ___
 B) Data Validation: The dataframe is validated to confirm if there is missing data, noisy data or errors in the datatype
 
+Data Exploration / Visualization
+--------------------
+Numerical transformation such as country-wise, artist wise statistical report is done on the data using the grouping method (groupBy) to visually represent these transformations. The insights will also be graphically represented in the form of bar charts by employing pandas visualization libraries like Matplotlib and Seaborn
 
-The methodology is implemented programmatically on with pyspark i.e python API for Apache Spark framework. Pyspark is employed for data exploration actions and transformations because it is well suited to handle big data mining tasks due to its flexible, scalable, and fast execution
+Association Rule mining 
+--------
+The frequent itemset mining analysis was implemented using FP-Growth machine learning algorithm with weights of 80% train data and 20% test data. The aim of frequent pattern mining is to find all the “interesting rules” that minimum support and confidence threshold that give all possible associations among the frequent music artists. The FP-Growth algorithm was modelled 4 times using four different hyperparameters of minimum support (S) and confidence (C). Each hyperparameterized model was tested using user_id = 154 to evaluate which model has the best music recommendation performance
