@@ -31,7 +31,7 @@ The frequent itemset mining analysis is implemented using FP-Growth machine lear
 
 IV. Recommendation Results / Conclusion
 --------------
-From the music prediction results of user 154, it was observed that only the 3rd and 4th hyperparameterized FP-Growth models recommended hip-hop music artists for the user based on the user’s listening history. Model 1 and 2 did not recommend any music artist for the listener even though the support and confidence value were set to recommended values based according to scholars. 
+From the music prediction results of user 154, it was observed that only the 3rd and 4th hyperparameterized FP-Growth models recommended hip-hop music artists for the user based on the user’s listening history. Model 1 and 2 did not recommend any music artist for the listener even though the support and confidence value were set to recommended values (S=0.2, C=0.3) by reseach scholars. 
 ____
 Model 3 provided two recommendations, however, both recommendations were only hip-hop artists. Despite model 3 having the highest number of association rules and frequent itemsets, it was unable to make more interesting recommendations 
 ___
