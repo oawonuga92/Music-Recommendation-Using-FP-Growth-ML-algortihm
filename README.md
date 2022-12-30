@@ -13,7 +13,7 @@ The methodology for this project involved the application of four techniques in 
 3. Data visualization
 4. Association rule mining (ARM) using FP growth algorithm
 
-The methodology above is implemented programmatically with pyspark i.e python API for Apache Spark framework. Pyspark is employed for this project because it is well suited to handle big data mining tasks due to its flexible, scalable, and fast execution
+The methodology above is implemented programmatically on Google Colab platfrom with pyspark i.e python API for Apache Spark framework. Pyspark is employed for this project because it is well suited to handle big data mining tasks due to its flexible, scalable, and fast execution
 
 Data preprocessing
 --------------------
