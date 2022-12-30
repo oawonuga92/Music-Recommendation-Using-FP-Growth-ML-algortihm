@@ -29,7 +29,7 @@ III. Association Rule mining
 --------
 The frequent itemset mining analysis is implemented using FP-Growth machine learning algorithm with weights of 80% train data and 20% test data. The aim of frequent pattern mining is to find all the “interesting rules” that minimum support and confidence threshold that give all possible associations among the frequent music artists. The FP-Growth algorithm was modelled 4 times using four different hyperparameters of minimum support (S) and confidence (C). Each hyperparameterized model was tested using user_id = 154 to evaluate which model has the best music recommendation performance.
 
-IV. Results / Conclusion
+IV. Recommendation Results / Conclusion
 --------------
 From the music prediction results of user 154, it was observed that only the 3rd and 4th hyperparameterized FP-Growth models recommended hip-hop music artists for the user based on the user’s listening history. Model 1 and 2 did not recommend any music artist for the listener even though the support and confidence value were set to recommended values based according to scholars. 
 ____
