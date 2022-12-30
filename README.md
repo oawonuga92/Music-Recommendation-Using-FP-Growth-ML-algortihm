@@ -15,13 +15,13 @@ The methodology for this project involved the application of four techniques in 
 
 The methodology above is implemented programmatically on Google Colab platfrom with pyspark i.e python API for Apache Spark framework. Pyspark is employed for this project because it is well suited to handle big data mining tasks due to its flexible, scalable, and fast execution
 
-A. Data preprocessing
+a. Data preprocessing
 --------------------
 i) Removal of duplicates: Two duplicate observations are found in the dataframe. Initially, there are 289955 rows, but after normalization using dropDuplicates ([ ]) function, the number of observation is 289953. The justification for data normalization is to remove duplicates and ensure each observation is a unique row.
 ___
 ii) Data Validation: The dataframe is validated to confirm if there is missing data, noisy data or errors in the datatype
 
-B. Data Exploration / Visualization
+b. Data Exploration / Visualization
 --------------------
 Numerical transformation such as country-wise distribution, artist wise distribution is perfromed on the dataframe using the grouping method (groupBy). These transformations are graphically represented in the form of bar charts by employing pandas visualization libraries which are Matplotlib and Seaborn
 
