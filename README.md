@@ -21,7 +21,7 @@ ii) Data Validation: The dataframe is validated to confirm if there is missing d
 b. Data Exploration / Visualization
 --------------------
 Numerical transformation such as country-wise distribution, artist wise distribution is perfromed on the dataframe using the grouping method (groupBy). These transformations are graphically represented in the form of bar charts by employing pandas visualization libraries which are Matplotlib and Seaborn
-
+************
 III. Association Rule mining 
 --------
 The frequent itemset mining analysis is implemented using FP-Growth machine learning algorithm with weights of 80% train data and 20% test data. The aim of frequent pattern mining is to find all the “interesting rules” that minimum support and confidence threshold that give all possible associations among the frequent music artists. The FP-Growth algorithm was modelled 4 times using four different hyperparameters of minimum support (S) and confidence (C). Each hyperparameterized model was tested using user_id = 154 to evaluate which model has the best music recommendation performance.
