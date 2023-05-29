@@ -8,7 +8,7 @@ The domain of the dataset is related to music. The data was created and publishe
 II. Methodology: 
 -------------
 The methodology for this project involved the application of four techniques in big data analytics lifecycle.  The techniques explored are 
-1. Data-preprocessing   2. Exploratory Data Analysis     3. Data visualization     4. Association rule mining (ARM) using FP growth algorithm
+1. Data-preprocessing  ********  2. Exploratory Data Analysis ********  3. Data visualization  ********   4. Association rule mining (ARM) using FP growth algorithm
 
 The methodology above is implemented programmatically on Google Colab platfrom with pyspark i.e python API for Apache Spark framework. Pyspark is employed for this project because it is well suited to handle big data mining tasks due to its flexible, scalable, and fast execution
 
