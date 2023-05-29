@@ -3,21 +3,18 @@ In this Project, the association rule data mining (ARM) technique was employed u
 
 I. Dataset Description: 
 ---------------------
-The data set is an open dataset from lastfm. Lastfm is a music listening streaming platform. The domain of the dataset is related to music. The data was created and published by the same owners (lastfm). The data is available in a comma separated value (CSV) format and it has a shape of 289955 rows and 4 columns. The names of the 4 attributes are: user_id,  sex,  music_artist,  country.
+The domain of the dataset is related to music. The data was created and published by the same owners (lastfm). The data is available in a comma separated value (CSV) format and it has a shape of 289955 rows and 4 columns. The names of the 4 attributes are: user_id,  sex,  music_artist,  country.
 
 II. Methodology: 
 -------------
 The methodology for this project involved the application of four techniques in big data analytics lifecycle.  The techniques explored are 
-1. Data-preprocessing 
-2. Exploratory Data Analysis
-3. Data visualization
-4. Association rule mining (ARM) using FP growth algorithm
+1. Data-preprocessing   2. Exploratory Data Analysis     3. Data visualization     4. Association rule mining (ARM) using FP growth algorithm
 
 The methodology above is implemented programmatically on Google Colab platfrom with pyspark i.e python API for Apache Spark framework. Pyspark is employed for this project because it is well suited to handle big data mining tasks due to its flexible, scalable, and fast execution
 
 a. Data preprocessing
 --------------------
-i) Removal of duplicates: Two duplicate observations are found in the dataframe. Initially, there are 289955 rows, but after normalization using dropDuplicates ([ ]) function, the number of observation is 289953. The justification for data normalization is to remove duplicates and ensure each observation is a unique row.
+i) Removal of duplicates: Two duplicate observations are found in the dataframe. Initially, there are 289955 rows, but after normalization using dropDuplicates ([ ]) function, the number of observation is 289953.
 ___
 ii) Data Validation: The dataframe is validated to confirm if there is missing data, noisy data or errors in the datatype
 
@@ -31,9 +28,10 @@ The frequent itemset mining analysis is implemented using FP-Growth machine lear
 
 IV. Recommendation Results / Conclusion
 --------------
-From the music prediction results of user 154, it was observed that only the 3rd and 4th hyperparameterized FP-Growth models recommended hip-hop music artists for the user based on the user’s listening history. Model 1 and 2 did not recommend any music artist for the listener even though the support and confidence value were set to recommended values (S=0.2, C=0.3) by reseach scholars. 
-____
-Model 3 provided two recommendations, however, both recommendations were only hip-hop artists. Despite model 3 having the highest number of association rules and frequent itemsets, it was unable to make more interesting recommendations 
-___
-In contrast, The 4th hyperparameterized model showed more promising predictions than the other three parameterized models. Model 4 recommended five hip-hop musicians (t.i, eminem, kanye west, 2-pac, jay-z), two rock musicians (coldplay and radiohead), and one reggae music artist (the killers). Model 4 is the best fit recommendation model because it was able to find more interesting rules that give possible relationships among music artists. 
+1.  From the music prediction results of user 154, it was observed that only the 3rd and 4th hyperparameterized FP-Growth models recommended hip-hop music artists for the user based on the user’s listening history. 
+2.  Model 1 and 2 did not recommend any music artist for the listener even though the support and confidence value were set to recommended values (S=0.2, C=0.3) by reseach scholars. 
+3.  Model 3 provided two recommendations, however, both recommendations were only hip-hop artists. Despite model 3 having the highest number of association rules and frequent itemsets, it was unable to make more interesting recommendations 
+4.  However, The 4th hyperparameterized model showed more promising predictions than the other three parameterized models. Model 4 recommended five hip-hop musicians (t.i, eminem, kanye west, 2-pac, jay-z), two rock musicians (coldplay and radiohead), and one reggae music artist (the killers). 
+*****
+In conclusion, Model 4 is the best fit recommendation model because it was able to find more interesting rules that give possible relationships among music artists. 
 
