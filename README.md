@@ -16,7 +16,7 @@ a. Data preprocessing
 --------------------
 i) Removal of duplicates: Two duplicate observations are found in the dataframe. Initially, there are 289955 rows, but after normalization using dropDuplicates ([ ]) function, the number of observation is 289953.
 ___
-ii) Data Validation: The dataframe is validated to confirm if there is missing data, noisy data or errors in the datatype
+ii) Data Validation: there is no missing or noisy data in the dataset
 
 b. Data Exploration / Visualization
 --------------------
